@@ -1,0 +1,78 @@
+# ===== Build output =====
+/target/
+/build/
+/out/
+/bin/
+/dist/
+
+# ===== Compiled files =====
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== Temp =====
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ===== OS trash =====
+.DS_Store
+Thumbs.db
+
+# ===== IntelliJ IDEA =====
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ===== Eclipse =====
+.project
+.classpath
+.settings/
+.metadata/
+
+# ===== VS Code =====
+.vscode/
+
+# ===== Maven =====
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ===== Gradle =====
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# ===== Node (якщо є фронт поряд) =====
+node_modules/
+
+# ===== Env / secrets =====
+.env
+.env.*
+*.key
+*.pem
+*.keystore
+*.jks
+
+# ===== Coverage / tests =====
+coverage/
+jacoco.exec
+*.lcov
+
+# ===== Docker =====
+docker-compose.override.yml
+
+# ===== Misc =====
+*.pid
+*.seed
