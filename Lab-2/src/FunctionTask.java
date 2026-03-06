@@ -7,7 +7,11 @@ public class FunctionTask {
         double f;
         if (x < 0) {
             f = x * x + 3 * x;
-        } else {
+        }
+        else if (x>5){
+            f= -x+ Math.exp(x) ;
+        }
+        else {
             f = Math.sin(x);
         }
         System.out.println("f(x) = " + f);

@@ -4,7 +4,7 @@ public class Task1 {
 
             int sum = a + b + c + d + e + f + g + h + i + j;
             int sub = a - b - c - d - e - f - g - h - i - j;
-            long mul = 1L * a * b * c * d * e * f * g * h * i * j;
+            long mul =  a * b * c * d * e * f * g * h * i * j;
             double div = (double) a / b / c / d / e / f / g / h / i / j;
 
             System.out.println("Завдання 1");
