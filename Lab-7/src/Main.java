@@ -26,9 +26,9 @@ public class Main {
             }
         }
         Car randomCar = Helper.getRandomCar(cars);
-        System.out.println(" Завдання 1 (Таксі)");
+        System.out.println(" Завдання 1 ");
         Helper.showCar(randomCar);
-        System.out.println("\nЗАВДАННЯ 2");
+        System.out.println("\nЗавдання 2");
         PhoneBook.run();
     }
 }
