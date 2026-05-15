@@ -5,7 +5,7 @@ public class Main extends JFrame {
     private JTextField volumeField;
     private JTextField resultField;
     public Main () {
-        setTitle("Варіант 4 — Сила Архімеда");
+        setTitle(" Сила Архімеда");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, 380, 230);
         setLayout(null);
